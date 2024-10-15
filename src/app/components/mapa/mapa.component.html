@@ -1,0 +1,11 @@
+<div class="seleccion">
+  <div 
+    class="imagen_container" 
+    *ngFor="let imagen of imagenes; let i = index"
+    (mouseenter)="onMouseEnter(imagen)"
+    (mouseleave)="onMouseLeave()"
+    (click)="onClick(imagen)"
+  >
+    <img [src]="imagen" alt="Imagen de algo lokin" class="imagen">
+  </div>
+</div>

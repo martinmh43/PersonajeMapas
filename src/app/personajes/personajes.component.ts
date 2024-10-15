@@ -1,15 +1,13 @@
-import { Component, Input } from '@angular/core';
-import { Personaje } from './models/Personaje.model';
+import { Component} from '@angular/core';
+import { Personaje } from '../models/Personaje.model';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-personajes',
+  templateUrl: './personajes.component.html',
+  styleUrls: ['./personajes.component.css']
 })
-export class AppComponent {
-[x: string]: any;
-  title = 'SegundoProyecto';
-
+export class PersonajesComponent {
+  
 
   selection: number = 0;
 
@@ -36,6 +34,4 @@ export class AppComponent {
     return this.selection;
   }
 
-
-  
 }

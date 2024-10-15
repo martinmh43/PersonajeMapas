@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url("https://wallpapers.com/images/hd/dark-alleyway-1920-x-1080-wallpaper-frwtlryu4iirny5m.jpg");
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,24 @@
+
+
+.next {
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 220px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.next:hover {
+    background-color: rgb(233, 233, 233);
+    color: rgb(53, 53, 53);
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
